@@ -733,6 +733,8 @@ extern int __overflow (FILE *, int);
 # 8 "0-main.c"
 int main(void)
 {
- printf("Hello, world!\n");
+ printf("Holberton School");
  return (0);
 }
+
+(16345 chars long)
