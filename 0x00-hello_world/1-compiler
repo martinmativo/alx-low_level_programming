@@ -1,4 +1,2 @@
 #!/bin/bash
-cfile="$CFILE"
-filename="${cfile%.*}"
-gcc -c "$cfile" -o "$filename.o"
+cfile="$CFILE"  filename="${cfile%.*}" gcc -c "$cfile" -o "$filename.o"
