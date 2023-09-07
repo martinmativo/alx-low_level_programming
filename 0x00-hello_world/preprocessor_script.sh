@@ -1,5 +1,0 @@
-#!/bin/bash
-
-
-CFILE="main.c"
-gcc -E $CFILE -o c
