@@ -1,1 +1,20 @@
-int _abs(int d);
+/*
+ * File: 6-abs.c
+ * Auth: Martin Mativo
+ */
+
+#include "main.h"
+
+/**
+ * _abs - computes the absolute value of an integer.
+ * @n: The integer being checked.
+ *
+ * Return: The absolute value of the integer.
+ */
+int _abs(int n)
+{
+	if (n < 0)
+		return (-n);
+	else
+		return (n);
+}
