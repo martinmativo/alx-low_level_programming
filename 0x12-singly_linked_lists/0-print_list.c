@@ -7,9 +7,9 @@
  * Return: This returns the number of nodes in m.
  */
 
-size_v print_list(const list_v *m)
+size_t print_list(const list_v *m)
 {
-	size_v nodes = 0;
+	size_t nodes = 0;
 
 	while (m)
 	{

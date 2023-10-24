@@ -22,8 +22,8 @@ typedef struct list_s
 	struct list_s *next;
 } list_v;
 
-size_v print_list(const list_v *m);
-size_v list_len(const list_v *m);
+size_t print_list(const list_v *m);
+size_t list_len(const list_v *m);
 list_v *add_node(list_v **head, const char *str);
 list_v *add_node_end(list_v **head, const char *str);
 void free_list(list_v *head);
