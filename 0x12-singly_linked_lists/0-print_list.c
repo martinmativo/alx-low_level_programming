@@ -5,12 +5,12 @@
  * print_list - This Prints all the available elements of a list_t list.
  * @h: The existing list_t list.
  *
- * Return: The number of nodes in h.
+ * Return: The number of nodes to be printed.
  */
 
 size_t print_list(const list_t *h)
 {
-	size_t nodes = 0;
+	size_t m = 0;
 
 	while (h)
 	{
@@ -20,7 +20,7 @@ size_t print_list(const list_t *h)
 		else
 			printf("[%d] %s\n", h->len, h->str);
 
-		nodes++;
+		m++;
 		h = h->next;
 	}
 
